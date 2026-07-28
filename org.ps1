@@ -10,7 +10,7 @@ if($add -eq '' -and $folder -eq '' -and !$flatten){
 
 ORGANIZE.PS1 HELP
 
--add     created | mod | title
+-add     (date prefix) created | mod | title
 -folder  y | y\m | y\q | y-m-d  (use quotes: "y\q")
 -pattern y-m-d | y-m | y  (only with -add title)
 -flatten (no value - runs alone)
@@ -22,7 +22,6 @@ EXAMPLES:
   .\org.ps1 -folder y
   .\org.ps1 -folder "y\q"
   .\org.ps1 -flatten
-  .\org.ps1 -add title -folder "y\q"
 
 "@
     exit
