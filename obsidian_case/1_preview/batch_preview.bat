@@ -1,6 +1,6 @@
 @echo off
 
-set "AUTO=C:\Users\user\Home\documents\file sys\organization\automatic_organization"
+set "AUTO=C:\Users\user\documents"
 set "LIST=%AUTO%\folders_preview.txt"
 set "FLOW=%AUTO%\obsidian_flow_preview.bat"
 
