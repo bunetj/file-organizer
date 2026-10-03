@@ -1,4 +1,6 @@
-# automatic organization by date and type
+# file organizer
+
+automatic organization by date and type
 
 ## usage
 
@@ -28,11 +30,3 @@ options:
 
 See each command's --help for details.
 ```
-
-## cases
-
-fill folders.txt and the script will organize them by date.
-
-- obsidian: `pasted image 20251111111111.jpg`
-- days: 2025-01-01/ etc --> 01/ 7 "days" inside (not a real calendar week)
-
