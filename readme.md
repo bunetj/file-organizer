@@ -6,13 +6,13 @@ automatic organization by date and type
 
 ```
 usage: org.py [-h]
-              {ext,chunks,date,pullup,rm-empty,undo} ...
+              {ext,chunks,date,pullup,rm-empty,undo,case} ...
 
 Organize a folder in place. Files only, unless
 stated.
 
 positional arguments:
-  {ext,chunks,date,pullup,rm-empty,undo}
+  {ext,chunks,date,pullup,rm-empty,undo,case}
     ext                 move files into type folders
     chunks              split files (or folders)
                         into numbered folders
@@ -23,6 +23,8 @@ positional arguments:
     rm-empty            delete empty subfolders
     undo                reverse the last journal in
                         a folder
+    case                run a named workflow over
+                        folders.txt
 
 options:
   -h, --help            show this help message and
