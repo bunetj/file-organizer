@@ -1,0 +1,2 @@
+c:\users\user\home\folder1
+c:\users\user\home\folder2
